@@ -20,8 +20,8 @@ const SalesGraph = ({ sales }) => {
               >
                 <XAxis dataKey="month"  width={100} interval={0} tickLine={false} />
                 <YAxis hide={true} />
-                <Line type="monotone" dataKey="retailSales" stroke="#8884d8" dot={false} />
-                <Line type="monotone" dataKey="wholesaleSales" stroke="#82ca9d" dot={false} />
+                <Line type="monotone" dataKey="retailSales" strokeWidth={3} stroke="#8884d8" dot={false} />
+                <Line type="monotone" dataKey="wholesaleSales" strokeWidth={3} stroke="#82ca9d" dot={false} />
               </LineChart>
           </ResponsiveContainer>
       </div>
