@@ -1,0 +1,45 @@
+.sidebar{
+    background-color: #fff;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 4px 2px 12px #cccc;
+    min-height: 600px;
+}
+.sharkninja-image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sharkninja-image img{
+    width: 100px;
+}
+.sharkninja-image .description{
+    font-size: 12px;
+    color: #988a8a;
+}
+.sharkninja-filters{
+    margin: 0;
+    padding: 5px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sharkninja-filters li {
+    list-style: none;
+    margin: 5px 5px;
+    border: 1px solid #ccc;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #fff;
+}
+.border-bottom{
+    border-bottom:1px solid #ccc;
+  }
+  @media (max-width : 768px){
+      .sidebar{
+        min-height: 100%;
+        margin-bottom: 10px !important;
+      }
+  }
